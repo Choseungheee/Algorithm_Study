@@ -1,7 +1,7 @@
 n, m = map(int, input().split())
 arr = list(map(int, input().split()))
 arr.sort()
-visited = [False]*n #
+visited = [False]*n
 s = []
 def solution(s, n, m):
     if len(s)==m:
